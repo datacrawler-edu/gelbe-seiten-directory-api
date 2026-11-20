@@ -1,0 +1,17 @@
+[
+  {
+    "realId": "00000000-0000-4000-8000-000000000001",
+    "name": "Example Dental Practice",
+    "category": "Zahnärzte",
+    "street": null,
+    "postalCode": "10115",
+    "city": "Berlin",
+    "phone": null,
+    "website": "https://dental.example",
+    "profileUrl": "https://www.gelbeseiten.de/gsbiz/00000000-0000-4000-8000-000000000001",
+    "fax": null,
+    "latitude": null,
+    "longitude": null,
+    "openingHours": []
+  }
+]

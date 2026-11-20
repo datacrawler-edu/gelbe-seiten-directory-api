@@ -1,0 +1,142 @@
+{
+  "repository": {
+    "name": "gelbe-seiten-directory-api",
+    "description": "Python, JavaScript and cURL examples for Gelbe Seiten directory searches and CSV exports with Apify.",
+    "homepage": "https://apify.com/datascraperes/gelbe-seiten-business-directory?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Gelbe Seiten Scraper – German Business Directory",
+    "id": "datascraperes/gelbe-seiten-business-directory",
+    "storeUrl": "https://apify.com/datascraperes/gelbe-seiten-business-directory",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~gelbe-seiten-business-directory",
+    "description": "Search German businesses by trade, city, postcode or district and export unique listings with optional opening hours."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/gelbe-seiten-business-directory?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "keyword",
+      "inputLabel": "Business type or name",
+      "inputSummary": "Enter a trade and a German city or postcode. Optionally select districts and request weekly opening hours.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Gelbe Seiten directory API examples",
+    "secondaryKeywords": [
+      "Gelbe Seiten Python integration",
+      "German business directory CSV"
+    ],
+    "topics": [
+      "gelbe-seiten",
+      "apify",
+      "python",
+      "business-data",
+      "csv",
+      "api-examples"
+    ],
+    "longTailIntents": [
+      "Run a Gelbe Seiten district search from Python",
+      "Export an existing Gelbe Seiten Dataset to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/search.py",
+      "examples/python/batch_cities.py",
+      "examples/python/export_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per event for each unique listing saved. Check the Actor Pricing tab for current tier rates.",
+    "unit": "one unique listing saved",
+    "price": "See the Actor Pricing tab"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/gelbe-seiten-directory-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/gelbe-seiten-directory-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/gelbe-seiten-business-directory?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/gelbe-seiten-directory-api",
+      "Gelbe Seiten directory API Python CSV"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/gelbe-seiten-directory-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/gelbe-seiten-business-directory?fpr=edudata"
+  }
+}
